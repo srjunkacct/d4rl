@@ -11,8 +11,7 @@ setup(
                       'h5py', 
                       'termcolor', # adept_envs dependency
                       'click',  # adept_envs dependency
-                      'dm_control @ git+git://github.com/deepmind/dm_control@41d0c7383153f9ca6c12f8e865ef5e73a98759bd#egg=dm_control',
-                      'mjrl @ git+git://github.com/aravindr93/mjrl@master#egg=mjrl'],
+                    ],
     packages=find_packages(),
     package_data={'d4rl': ['locomotion/assets/*',
                            'hand_manipulation_suite/assets/*',
