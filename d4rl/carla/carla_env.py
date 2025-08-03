@@ -8,8 +8,8 @@ import time
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 import gym
-from gym import Env
-import gym.spaces as spaces
+from gymnasium import Env
+import gymnasium.spaces as spaces
 
 #from . import proxy_env
 from d4rl.offline_env import OfflineEnv

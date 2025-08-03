@@ -2,8 +2,8 @@ import math
 import gym
 from enum import IntEnum
 import numpy as np
-from gym import error, spaces, utils
-from gym.utils import seeding
+from gymnasium import error, spaces, utils
+from gymnasium.utils import seeding
 from d4rl.gym_minigrid.rendering import *
 from d4rl import offline_env
 

@@ -1,4 +1,4 @@
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 from mjrl.envs.mujoco_env import MujocoEnv
 from d4rl.hand_manipulation_suite.door_v0 import DoorEnvV0
 from d4rl.hand_manipulation_suite.hammer_v0 import HammerEnvV0

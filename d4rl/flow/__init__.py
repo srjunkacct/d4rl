@@ -1,7 +1,7 @@
 import gym
 import os
 from d4rl import offline_env
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 
 from copy import deepcopy
 

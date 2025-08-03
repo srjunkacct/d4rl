@@ -1,7 +1,7 @@
 import sys
 import numpy as np
-import gym
-import gym.spaces
+import gymnasium
+import gymnasium.spaces
 
 from d4rl.pointmaze.gridcraft.grid_spec import REWARD, REWARD2, REWARD3, REWARD4, WALL, LAVA, TILES, START, RENDER_DICT
 from d4rl.pointmaze.gridcraft.utils import one_hot_to_flat, flat_to_one_hot

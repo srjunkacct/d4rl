@@ -1,6 +1,6 @@
 from .carla_env import CarlaObsDictEnv
 from .carla_env import CarlaObsEnv
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 
 
 register(

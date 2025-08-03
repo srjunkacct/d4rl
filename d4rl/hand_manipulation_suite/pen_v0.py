@@ -1,6 +1,6 @@
 import numpy as np
-from gym import utils
-from gym import spaces
+from gymnasium import utils
+from gymnasium import spaces
 from mjrl.envs import mujoco_env
 from d4rl.utils.quatmath import quat2euler, euler2quat
 from d4rl import offline_env

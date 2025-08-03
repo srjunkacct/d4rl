@@ -1,4 +1,4 @@
-import gym
+import gymnasium
 import d4rl
 import click 
 import os

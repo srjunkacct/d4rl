@@ -1,5 +1,5 @@
 from .. import offline_env
-from gym.envs.mujoco import HalfCheetahEnv, AntEnv, HopperEnv, Walker2dEnv
+from gymnasium.envs.mujoco import HalfCheetahEnv, AntEnv, HopperEnv, Walker2dEnv
 from ..utils.wrappers import NormalizedBoxEnv
 
 class OfflineAntEnv(AntEnv, offline_env.OfflineEnv):

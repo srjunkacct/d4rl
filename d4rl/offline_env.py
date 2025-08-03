@@ -1,7 +1,7 @@
 import os
 import urllib.request
 
-import gym
+import gymnasium
 import h5py
 from tqdm import tqdm
 

@@ -1,4 +1,4 @@
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 from d4rl.gym_mujoco import gym_envs
 from d4rl import infos
 

@@ -20,8 +20,8 @@ import numpy as np
 import mujoco_py
 import os
 
-from gym import utils
-from gym.envs.mujoco import mujoco_env
+from gymnasium import utils
+from gymnasium.envs.mujoco import mujoco_env
 from d4rl.locomotion import mujoco_goal_env
 
 from d4rl.locomotion import goal_reaching_env

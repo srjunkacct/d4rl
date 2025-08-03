@@ -1,5 +1,5 @@
 from ..pointmaze.maze_model import OPEN, U_MAZE, MEDIUM_MAZE, LARGE_MAZE, U_MAZE_EVAL, MEDIUM_MAZE_EVAL, LARGE_MAZE_EVAL
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 from d4rl import infos
 
 register(
